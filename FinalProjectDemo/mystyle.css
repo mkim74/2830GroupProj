@@ -1,0 +1,52 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    
+}
+
+h1 {
+    color: orangered;
+    padding: 50px;
+}
+
+#password{
+    margin: 5px;
+}
+
+#username{
+    margin: 5px;
+}
+
+button{
+    padding: 15px;
+    margin: 40px;
+    color: black;
+    background-color: grey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+  }
+  
+  li {
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: orangered;
+  }
+
