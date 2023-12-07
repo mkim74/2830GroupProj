@@ -17,8 +17,8 @@ function createAccount() {
 }
 
 function logInAccount() {
-    var username = document.getElementById('savedUsername').value;
-    var password = document.getElementById('savedPassword').value;
+    var savedUsername = document.getElementById('savedUsername').value;
+    var savedPassword = document.getElementById('savedPassword').value;
 }
 
 function saveVerse() {
