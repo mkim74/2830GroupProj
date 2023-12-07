@@ -37,7 +37,10 @@ function saveVerse() {
 
 function revealVerse() {
 
-    if(userAsnwer==answer){
+    var userAnswer = document.getElementById('userAnswer').value;
+    var answer = localStorage.getItem('bibleVerse');
+
+    if(userAnswer==answer){
     document.getElementById('result').innerText = 'Correct!'; 
     }
     else{
