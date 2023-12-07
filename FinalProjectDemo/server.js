@@ -41,10 +41,10 @@ function revealVerse() {
     var answer = localStorage.getItem('bibleVerse');
 
     if(userAnswer==answer){
-    document.getElementById('result').innerText = 'Correct!'; 
+    alert("Correct");
     }
     else{
-    document.getElementById('result').innerText = 'Incorrect...'; 
+    alert("Incorrect");
     }
 }
 
