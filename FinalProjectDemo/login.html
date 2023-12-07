@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="mystyle.css">
-  <title>Login Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Login Page</title>
 </head>
 <body>
     <ul>
@@ -13,16 +14,17 @@
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
   <h1>Log Back In</h1>
-  <form id="createUserForm">
-    <label for="username">Username:</label>
-    <input type="text" id="username" required><br>
 
-    <label for="password">Password:</label>
-    <input type="password" id="password" required><br>
-
-    <button type="button" onclick="logInUser()">Log In</button>
-    
+  <form id="logUserForm">
+    <label for="savedUsername">Username:</label>
+    <input type="text" id="savedUsername" name="savedUsername" required>
+    <br>
+    <label for="savedPassword">Password:</label>
+    <input type="text" id="savedPassword" name="savedPassword" required>
+    <br>
+    <button type="button" onclick="logInAccount()">Log In</button>  
   </form>
+
   <a href="index.html">
     Don't have an account? Sign Up</a>
 

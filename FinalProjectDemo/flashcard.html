@@ -2,13 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Practice Verses</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Verse</title>
 </head>
 <body>
-  <h1>Practice Verses</h1>
-  <ul id="verseList"></ul>
-  <button onclick="revealVerse()">Reveal Verse</button>
+  <h1>Enter Bible Verse</h1>
 
-  <script src="script.js"></script>
+    <form id="verseForm">
+        <label for="book">Book:</label>
+        <input id="book" name="book" required>
+        <br>
+        <label for="chapter">Chapter:</label>
+        <input id="chapter" name="chapter" required>
+        <br>
+        <label for="verse">Verse:</label>
+        <input id="verse" name="verse" required>
+        <br>
+        <label for="answer">Answer:</label>
+        <input id="answer" name="answer" required>
+        <br>
+        <button type="button" onclick="saveVerse()">Save Verse</button>
+    </form>
+
+    <form id="flashcard">
+        <h1>Enter Verse</h1>
+        <p id="displayVerse"></p>
+        <input id="userAnswer">
+        <button onclick="revealVerse()">Reveal Verse</button>
+        <p id="result"></p>
+    </div>
+    <script src="server.js"></script>
+
 </body>
 </html>

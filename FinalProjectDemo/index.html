@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="mystyle.css">
   <title>Home Page</title>
 </head>
@@ -15,14 +16,14 @@
   <h1>Create Account</h1>
   <form id="createUserForm">
     <label for="username">Username:</label>
-    <input type="text" id="username" required><br>
-
+    <input id="username" name="username" required>
+    <br>
     <label for="password">Password:</label>
-    <input type="password" id="password" required><br>
-
-    <button type="button" onclick="createUser()">Sign Up</button>
-    
+    <input id="password" name="password" required>
+    <br>
+    <button type="button" onclick="createAccount()">Sign Up</button>
   </form>
+
   <a href="login.html">
     Already have an account? Login</a>
 

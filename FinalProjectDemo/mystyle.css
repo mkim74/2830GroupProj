@@ -1,7 +1,6 @@
 body {
     background-color: lightblue;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 h1 {
@@ -14,6 +13,14 @@ h1 {
 }
 
 #username{
+    margin: 5px;
+}
+
+#savedPassword{
+    margin: 5px;
+}
+
+#savedUsername{
     margin: 5px;
 }
 
