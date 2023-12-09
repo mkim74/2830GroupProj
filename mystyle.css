@@ -1,0 +1,60 @@
+div {
+    background-color: lightblue;
+    text-align: center;  
+    max-width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px grey
+}
+
+h1 {
+    color: orangered;
+    padding: 50px;
+    text-align: center;  
+}
+
+h2{
+    color: orangered;
+    text-align: center;  
+}
+
+button{
+    padding: 15px;
+    margin: 40px;
+    color: black;
+    background-color: grey;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orangered;
+  }
+
+header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+  }
+  
+  header{
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+  }
+  
+  header{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+  }
+  
+
+  input{
+    padding: 10px;
+    box-sizing: border-box;
+    border: 3px grey;
+  }
+
